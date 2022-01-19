@@ -73,6 +73,9 @@ public class AdidasCsvParser {
                 if(p!=null){
                     myWriter.write(p.toString());
                     contador++;
+                    if(contador<845) {
+                        myWriter.write(",");
+                    }
                 }
             }
             myWriter.write("\n]");

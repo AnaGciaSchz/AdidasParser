@@ -8,7 +8,7 @@ public class Main {
  public static void main(String[] args) {
   try {
    AdidasCsvParser adidasParser = new AdidasCsvParser();
-   adidasParser.parse("/Users/anamariagarciasanchez/Desktop/ParseAdidasCSV/csv/adidas_tsv.tsv");
+   adidasParser.parse("csv/adidas_tsv.tsv");
   } catch (IOException e) {
    System.out.println("There was an error: " + e.getMessage());
   }

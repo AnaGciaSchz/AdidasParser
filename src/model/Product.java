@@ -111,6 +111,6 @@ public class Product {
             "\",\n\"description\": \""+deleteSymbol(deleteSymbol(description,"\""),"\n")+"\",\n\"images\":[\n \""+deleteSymbol(images[0],"\"")+"\"\n],\n\"average_rating\": \""
             +deleteSymbol(average_rating,"\"")+"\",\n\"newness\":\""+newness+"\",\n\"stock_level\":\""+stock_availabitliy+"\",\n\"unit_sales\": \""+previous_sales+
             "\",\n\"baseQuery_bot\": \""+deleteSymbol(baseQuery_bot,"\"")+"\",\n\"modificator_bot\": \""+deleteSymbol(modificator_bot,"\"")+
-            "\"\n},";
+            "\"\n}";
     }
 }
